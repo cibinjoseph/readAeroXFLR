@@ -8,6 +8,12 @@ using Pkg
 Pkg.add("https://github.com/cibinjoseph/readAeroXFLR.jl")
 ```
 
+Run tests to check if the package works.
+```julia
+using Pkg
+Pkg.test("readAeroXFLR")
+```
+
 ## Usage
 ```julia
 using readAeroXFLR
