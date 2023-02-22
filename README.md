@@ -28,7 +28,7 @@ using readAeroXFLR
   readAero(filename, allFields = false)
   Returns Mach, Re, alpha, CL, CD, CM from XFLR5 output file containing
   aerodynamic characteristics. alpha is in degrees. Turning on the
-  allFields option returns Mach, Re, data data is a structure containing
+  allFields option returns Mach, Re, data. data is a structure containing
   all columns of the XFLR5 file. The field names of the structure can be
   displayed using fieldnames()
 
