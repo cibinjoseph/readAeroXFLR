@@ -5,7 +5,7 @@ Julia script to read airfoil aerodynamic data output from XFLR5
 Install in Julia using the package manager.
 ```julia
 using Pkg
-Pkg.add("https://github.com/cibinjoseph/readAeroXFLR.jl")
+Pkg.add(url="https://github.com/cibinjoseph/readAeroXFLR.jl")
 ```
 
 Run tests to check if the package works.
